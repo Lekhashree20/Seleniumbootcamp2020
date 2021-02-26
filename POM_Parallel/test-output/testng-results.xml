@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32564" started-at="2021-02-26T23:25:44 IST" finished-at="2021-02-26T23:26:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32564" started-at="2021-02-26T23:25:44 IST" finished-at="2021-02-26T23:26:16 IST">
+      <class name="testcases.S20_02_CreateOpportunity_POM">
+        <test-method status="PASS" signature="startapp(java.lang.String, java.lang.String)[pri:0, instance:testcases.S20_02_CreateOpportunity_POM@b3ca52e]" name="startapp" is-config="true" duration-ms="10340" started-at="2021-02-26T23:25:44 IST" finished-at="2021-02-26T23:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startapp -->
+        <test-method status="FAIL" signature="createOpportunity()[pri:0, instance:testcases.S20_02_CreateOpportunity_POM@b3ca52e]" name="createOpportunity" duration-ms="21456" started-at="2021-02-26T23:25:54 IST" finished-at="2021-02-26T23:26:16 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at pages.DashboardPage.clickOpportunity(DashboardPage.java:19)
+at testcases.S20_02_CreateOpportunity_POM.createOpportunity(S20_02_CreateOpportunity_POM.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunity -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.S20_02_CreateOpportunity_POM@b3ca52e]" name="closebrowser" is-config="true" duration-ms="706" started-at="2021-02-26T23:26:16 IST" finished-at="2021-02-26T23:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.S20_02_CreateOpportunity_POM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
